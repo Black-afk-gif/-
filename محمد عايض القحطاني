@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروعي الأول</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 2rem;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 2rem;
+            background-color: #222;
+            color: white;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحبًا بك في مشروعي!</h1>
+    <nav>
+        <a href="#about">عن المشروع</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>عن المشروع</h2>
+        <p>هذا مشروع بسيط تم تصميمه باستخدام HTML و CSS.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>المعرض</h2>
+        <img src="https://via.placeholder.com/300" alt="صورة توضيحية" style="margin: 10px;">
+        <img src="https://via.placeholder.com/300" alt="صورة توضيحية" style="margin: 10px;">
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <button class="button" onclick="alert('شكرا لتواصلك معنا!')">اضغط هنا</button>
+    </section>
+</main>
+
+<footer>
+    <p>حقوق الطبع والنشر © 2024. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
